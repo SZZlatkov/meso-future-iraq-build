@@ -54,10 +54,10 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				meso: {
-					DEFAULT: '#1A1F2C',
-					light: '#2A3040',
-					accent: '#33C3F0',
-					secondary: '#7E69AB'
+					DEFAULT: '#14213D', // Midnight Blue
+					light: '#3B3B3B', // Charcoal Gray
+					accent: '#FCA311', // Gold/Amber
+					secondary: '#E5E5E5', // Light Gray
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',

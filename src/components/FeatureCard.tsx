@@ -13,8 +13,8 @@ const FeatureCard = ({ title, description, icon, className }: FeatureCardProps) 
   return (
     <div className={cn("p-6 bg-white rounded-lg shadow-sm border border-gray-100 h-full", className)}>
       {icon && <div className="mb-4 text-meso-accent">{icon}</div>}
-      <h3 className="text-xl font-semibold mb-2">{title}</h3>
-      <p className="text-gray-600">{description}</p>
+      <h3 className="text-xl font-semibold mb-2 text-meso-DEFAULT">{title}</h3>
+      <p className="text-meso-light">{description}</p>
     </div>
   );
 };
