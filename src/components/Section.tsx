@@ -9,6 +9,7 @@ interface SectionProps {
   className?: string;
   noPadding?: boolean;
   dark?: boolean;
+  titleColor?: string;
 }
 
 const Section = ({ 
@@ -18,7 +19,8 @@ const Section = ({
   children, 
   className, 
   noPadding = false,
-  dark = false
+  dark = false,
+  titleColor
 }: SectionProps) => {
   return (
     <section 
@@ -31,7 +33,12 @@ const Section = ({
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className={cn("text-3xl md:text-4xl font-bold mb-4", dark ? "text-white" : "text-meso-DEFAULT")}>{title}</h2>
+          <h2 
+            className={cn("text-3xl md:text-4xl font-bold mb-4")} 
+            style={{ color: titleColor || (dark ? "white" : "#14213D") }}
+          >
+            {title}
+          </h2>
           {subtitle && <p className={cn("text-lg max-w-3xl mx-auto", dark ? "text-gray-300" : "text-meso-light")}>{subtitle}</p>}
         </div>
         {children}

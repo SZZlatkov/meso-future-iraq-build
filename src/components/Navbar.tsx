@@ -34,13 +34,13 @@ const Navbar = () => {
           <div className="flex items-center">
             {scrolled ? (
               <img 
-                src="/public/lovable-uploads/c0796615-e88a-4583-82d3-7dc24887fede.png" 
+                src="/lovable-uploads/c0796615-e88a-4583-82d3-7dc24887fede.png" 
                 alt="MESO Capital" 
                 className="h-10"
               />
             ) : (
               <img 
-                src="/public/lovable-uploads/77f2a257-cadc-4548-9462-4a291e1feedc.png" 
+                src="/lovable-uploads/77f2a257-cadc-4548-9462-4a291e1feedc.png" 
                 alt="MESO Capital" 
                 className="h-10"
               />

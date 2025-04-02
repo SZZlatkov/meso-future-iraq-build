@@ -19,7 +19,7 @@ const Index = () => {
           <div className="text-center max-w-3xl mx-auto">
             <div className="flex justify-center mb-6">
               <img 
-                src="/public/lovable-uploads/77f2a257-cadc-4548-9462-4a291e1feedc.png" 
+                src="/lovable-uploads/77f2a257-cadc-4548-9462-4a291e1feedc.png" 
                 alt="MESO Capital" 
                 className="h-16 md:h-20"
               />
@@ -47,6 +47,7 @@ const Index = () => {
         id="about" 
         title="About MESO" 
         subtitle="Unlocking Private Sector Potential"
+        titleColor="#14213D"
       >
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-lg mb-8 text-meso-light">
@@ -60,6 +61,7 @@ const Index = () => {
         id="why-iraq" 
         title="Why Iraq, Why Now?" 
         className="bg-meso-secondary"
+        titleColor="#14213D"
       >
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           <StatCard 
@@ -79,7 +81,7 @@ const Index = () => {
           />
         </div>
         <div className="text-center max-w-3xl mx-auto">
-          <p className="text-xl font-semibold mb-8 text-meso-accent">→ MESO is here to fix that.</p>
+          <p className="text-xl font-semibold mb-8 text-[#14213D]">→ MESO is here to fix that.</p>
           <p className="text-lg text-meso-light">We deploy capital and expertise to create new industries and sustainable jobs beyond oil.</p>
         </div>
       </Section>
@@ -89,6 +91,7 @@ const Index = () => {
         id="model" 
         title="Our Model" 
         subtitle="Build. Borrow. Buy."
+        titleColor="#14213D"
       >
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <FeatureCard 
@@ -120,6 +123,7 @@ const Index = () => {
         title="Strategic Verticals" 
         subtitle="We invest in sectors with high growth and ecosystem synergy"
         className="bg-meso-secondary"
+        titleColor="#14213D"
       >
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
@@ -148,6 +152,7 @@ const Index = () => {
         id="how-we-work" 
         title="How We Work" 
         subtitle="From Idea to Industry"
+        titleColor="#14213D"
       >
         <div className="max-w-4xl mx-auto">
           <div className="space-y-12">
@@ -197,6 +202,7 @@ const Index = () => {
         title="Team & Advisors" 
         subtitle="Led by regional insiders and global experts"
         className="bg-meso-secondary"
+        titleColor="#14213D"
       >
         <div className="max-w-3xl mx-auto text-center">
           <div className="flex justify-center mb-4">
@@ -223,20 +229,22 @@ const Index = () => {
       <Section 
         id="join-us" 
         title="Join Us" 
-        className="bg-meso-DEFAULT text-white"
+        className="bg-[#14213D]"
+        titleColor="white"
+        dark={true}
       >
         <div className="max-w-3xl mx-auto text-center">
           <div className="flex justify-center gap-12 mb-8">
-            <div>
+            <div className="bg-[#1c2c4d] p-6 rounded-lg shadow-lg">
               <h3 className="text-3xl font-bold text-meso-accent mb-2">$72M</h3>
               <p className="text-gray-300">Raising</p>
             </div>
-            <div>
+            <div className="bg-[#1c2c4d] p-6 rounded-lg shadow-lg">
               <h3 className="text-3xl font-bold text-meso-accent mb-2">+30%</h3>
               <p className="text-gray-300">Target IRR</p>
             </div>
           </div>
-          <p className="mb-8">
+          <p className="mb-8 text-white text-lg">
             Through our ADGM-based HoldCo, MESO invests via a licensed digital bank and local entities to maximize offshore asset value.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -246,7 +254,7 @@ const Index = () => {
               </Button>
             </ContactDialog>
             <ContactDialog buttonText="Download Executive Summary">
-              <Button variant="outline" className="bg-transparent hover:bg-white/10 text-white border-white px-8 py-6 text-lg">
+              <Button variant="outline" className="bg-transparent hover:bg-white/20 text-white border-white px-8 py-6 text-lg">
                 Download Executive Summary
               </Button>
             </ContactDialog>
@@ -261,7 +269,7 @@ const Index = () => {
             <div>
               <div className="mb-4">
                 <img 
-                  src="/public/lovable-uploads/77f2a257-cadc-4548-9462-4a291e1feedc.png" 
+                  src="/lovable-uploads/c0796615-e88a-4583-82d3-7dc24887fede.png" 
                   alt="MESO Capital" 
                   className="h-12"
                 />
