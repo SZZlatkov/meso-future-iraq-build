@@ -67,10 +67,10 @@
   }
 
   .gradient-text {
-    @apply bg-gradient-to-r from-meso-accent to-meso-accent/70 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-[#FCA311] to-[#FCA311]/70 bg-clip-text text-transparent;
   }
   
   .bg-meso-gradient {
-    @apply bg-gradient-to-br from-meso-DEFAULT to-meso-DEFAULT/80;
+    @apply bg-gradient-to-br from-[#14213D] to-[#14213D]/80;
   }
 }
