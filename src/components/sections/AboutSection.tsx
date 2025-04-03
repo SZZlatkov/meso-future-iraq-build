@@ -11,7 +11,7 @@ const AboutSection = () => {
     >
       <div className="max-w-3xl mx-auto text-center">
         <p className="text-lg mb-8 text-meso-light">
-          MESO targets economic transformation in Iraq by bridging global expertise, capital, and innovation with local talent and market needs. We empower entrepreneurs and build sustainable industries through a vertically integrated ecosystem.
+          MESO drives economic transformation in Iraq by connecting global expertise and capital with local talent to build sustainable industries and empower entrepreneurs through a vertically integrated ecosystem.
         </p>
       </div>
     </Section>

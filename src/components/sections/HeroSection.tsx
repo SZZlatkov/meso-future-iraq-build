@@ -17,7 +17,7 @@ const HeroSection = () => {
             />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">Building the Future Economy of Iraq</h1>
-          <p className="text-xl mb-12 text-gray-200">MESO is an investment holding and venture builder focusing on high-growth sectors to create enduring value and empower the next generation of business leaders.</p>
+          <p className="text-xl mb-12 text-gray-200">MESO is an investment holding and venture builder focused on high-growth sectors across the Levant and MENA region, creating enduring value and empowering the next generation of business leaders.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <ContactDialog>
               <Button className="bg-meso-accent hover:bg-meso-accent/90 text-white px-8 py-6 text-lg">
