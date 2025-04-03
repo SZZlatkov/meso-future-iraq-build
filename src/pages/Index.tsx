@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Building2, TrendingUp, Briefcase, Activity, Users, Mail, Phone } from "lucide-react";
 import ContactDialog from "@/components/ContactDialog";
@@ -25,7 +24,7 @@ const Index = () => {
               />
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">Building the Future Economy of Iraq</h1>
-            <p className="text-xl mb-12 text-gray-200">MESO is a venture builder investing in high-growth sectors to create enduring value and empower the next generation of business leaders.</p>
+            <p className="text-xl mb-12 text-gray-200">MESO is an investment holding and venture builder focusing on high-growth sectors to create enduring value and empower the next generation of business leaders.</p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <ContactDialog>
                 <Button className="bg-meso-accent hover:bg-meso-accent/90 text-white px-8 py-6 text-lg">
@@ -125,7 +124,7 @@ const Index = () => {
         className="bg-meso-secondary"
         titleColor="#14213D"
       >
-        <div className="grid md:grid-cols-3 gap-8 mb-12">
+        <div className="grid md:grid-cols-2 gap-8 mb-12">
           <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
             <h3 className="text-xl font-bold mb-4 text-meso-DEFAULT">Banking & Insurance</h3>
             <div className="h-1 w-16 bg-meso-accent mb-4"></div>
@@ -135,11 +134,6 @@ const Index = () => {
             <h3 className="text-xl font-bold mb-4 text-meso-DEFAULT">E-Commerce & Logistics</h3>
             <div className="h-1 w-16 bg-meso-accent mb-4"></div>
             <p className="text-meso-light">Building retail infrastructure for the digital economy</p>
-          </div>
-          <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
-            <h3 className="text-xl font-bold mb-4 text-meso-DEFAULT">Healthcare & Technology</h3>
-            <div className="h-1 w-16 bg-meso-accent mb-4"></div>
-            <p className="text-meso-light">Enhancing healthcare delivery through innovative technology</p>
           </div>
         </div>
         <div className="text-center max-w-3xl mx-auto mt-12">
@@ -239,10 +233,6 @@ const Index = () => {
               <h3 className="text-3xl font-bold text-meso-accent mb-2">$72M</h3>
               <p className="text-gray-300">Raising</p>
             </div>
-            <div className="bg-[#1c2c4d] p-6 rounded-lg shadow-lg">
-              <h3 className="text-3xl font-bold text-meso-accent mb-2">+30%</h3>
-              <p className="text-gray-300">Target IRR</p>
-            </div>
           </div>
           <p className="mb-8 text-white text-lg">
             Through our ADGM-based HoldCo, MESO invests via a licensed digital bank and local entities to maximize offshore asset value.
@@ -275,19 +265,14 @@ const Index = () => {
                 />
               </div>
               <p className="max-w-md text-gray-400">
-                A venture builder investing in high-growth sectors to create enduring value and empower the next generation of business leaders.
+                An investment holding and venture builder focusing on high-growth sectors to create enduring value and empower the next generation of business leaders.
               </p>
             </div>
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact</h3>
-              <p className="text-gray-400 mb-2">Revand Bamarni</p>
               <div className="flex items-center text-gray-400 mb-2">
                 <Mail size={16} className="mr-2" /> 
-                <a href="mailto:revand@mesocap.com" className="hover:text-meso-accent">revand@mesocap.com</a>
-              </div>
-              <div className="flex items-center text-gray-400">
-                <Phone size={16} className="mr-2" /> 
-                <a href="tel:+17037440887" className="hover:text-meso-accent">+1 703 744 0887</a>
+                <a href="mailto:info@mesocap.com" className="hover:text-meso-accent">info@mesocap.com</a>
               </div>
             </div>
           </div>
