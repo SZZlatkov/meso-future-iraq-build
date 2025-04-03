@@ -124,7 +124,7 @@ const Index = () => {
         className="bg-meso-secondary"
         titleColor="#14213D"
       >
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
+        <div className="grid md:grid-cols-3 gap-8 mb-12">
           <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
             <h3 className="text-xl font-bold mb-4 text-meso-DEFAULT">Banking & Insurance</h3>
             <div className="h-1 w-16 bg-meso-accent mb-4"></div>
@@ -134,6 +134,11 @@ const Index = () => {
             <h3 className="text-xl font-bold mb-4 text-meso-DEFAULT">E-Commerce & Logistics</h3>
             <div className="h-1 w-16 bg-meso-accent mb-4"></div>
             <p className="text-meso-light">Building retail infrastructure for the digital economy</p>
+          </div>
+          <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
+            <h3 className="text-xl font-bold mb-4 text-meso-DEFAULT">Technology</h3>
+            <div className="h-1 w-16 bg-meso-accent mb-4"></div>
+            <p className="text-meso-light">Driving the digital transformation with AI-powered tools</p>
           </div>
         </div>
         <div className="text-center max-w-3xl mx-auto mt-12">
