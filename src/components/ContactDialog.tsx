@@ -33,8 +33,54 @@ const ContactDialog = ({ children, buttonText = "Contact Us" }: ContactDialogPro
     }));
   };
   
+  const validateForm = () => {
+    if (!formData.firstName.trim()) {
+      toast({
+        title: "Missing Information",
+        description: "Please enter your first name.",
+        variant: "destructive"
+      });
+      return false;
+    }
+    
+    if (!formData.lastName.trim()) {
+      toast({
+        title: "Missing Information",
+        description: "Please enter your last name.",
+        variant: "destructive"
+      });
+      return false;
+    }
+    
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(formData.email)) {
+      toast({
+        title: "Invalid Email",
+        description: "Please enter a valid email address.",
+        variant: "destructive"
+      });
+      return false;
+    }
+    
+    if (!formData.message.trim()) {
+      toast({
+        title: "Missing Information",
+        description: "Please enter your message.",
+        variant: "destructive"
+      });
+      return false;
+    }
+    
+    return true;
+  };
+  
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    
+    if (!validateForm()) {
+      return;
+    }
+    
     setIsSubmitting(true);
     
     try {
